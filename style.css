@@ -1,10 +1,29 @@
 * {
     background-color: #fff;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.center {
+    padding-left: calc(50% - 1170px/2);
+    padding-right: calc(50% - 1170px/2);
 }
 
 .header {
     padding-top: 40px;
     padding-bottom: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.brand {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 14px;
 }
 
 .brand-name {
@@ -18,6 +37,14 @@
 
 .end-of-name {
     color: #F25822;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 30px;
 }
 
 .nav-link-home {
@@ -43,10 +70,18 @@
 .main-content {
     padding-top: 42px;
     padding-bottom: 162px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 41px;
 }
 
 .main-content-text {
     padding-top: 2px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 .main-title {
@@ -67,6 +102,14 @@
     font-weight: 400;
     line-height: normal;
     margin-bottom: 37px;
+}
+
+.main-content-buttons {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 72px;
 }
 
 .pushbutton {
@@ -97,10 +140,8 @@
 .logo-line {
     padding-top: 97px;
     padding-bottom: 97px;
-}
-
-.logo-img {
-    width: 156px;
-height: 50px;
-flex-shrink: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
 }
